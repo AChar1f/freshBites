@@ -16,3 +16,8 @@
     padding-top: 15px;
     background-color: #B1A189;
 }
+
+img[alt='logo'] {
+    aspect-ratio: 1/1;
+    width: 70px;
+}
