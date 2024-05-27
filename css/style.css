@@ -67,3 +67,21 @@ body {
     padding: 20px;
     text-align: center;
   }
+
+  /* Sandwiches Page css*/
+.row {
+    background-color: slategray;
+    height: 80vh;
+}
+
+.card {
+    margin: auto;
+    padding-top: 15px;
+    background-color: #B1A189;
+}
+
+/* Logo style */
+img[alt='logo'] {
+    aspect-ratio: 1/1;
+    width: 70px;
+}
