@@ -1,55 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <title>Fresh Bites</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Fresh Bites</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-              </li>
-              
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Fresh Bites</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
+            </li>
 
-              <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Menu
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/pages/sandwiches.html">Sandwiches</a></li>
-                        <li><a class="dropdown-item" href="/pages/wraps.html">Wraps</a></li>
-                        <li><a class="dropdown-item" href="/pages/beverages.html">Beverages</a></li>
-                    </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Menu
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="/pages/sandwiches.html"
+                    >Sandwiches</a
+                  >
                 </li>
-            </ul>
+                <li>
+                  <a class="dropdown-item" href="/pages/wraps.html">Wraps</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="/pages/beverages.html"
+                    >Beverages</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid">
+      <div class="row gy-3 d-flex">
+        <div class="card" style="width: 18rem">
+          <img src="https://achar1f.github.io/projectimages/freshBitesResources/tunatoast.jpg" class="card-img-top" alt="tuna-sandwich" />
+          <div class="card-body">
+            <h5 class="card-title">Tuna Melt Toast</h5>
+            <p class="card-text">
+              R50
+            </p>
+            <a href="#" class="btn btn-dark">Add to cart</a>
           </div>
         </div>
-      </nav>
+        <div class="card" style="width: 18rem">
+          <img src="https://achar1f.github.io/projectimages/freshBitesResources/eggSandwich.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Egg Sandwich</h5>
+            <p class="card-text">
+              R35
+            </p>
+            <a href="#" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="https://achar1f.github.io/projectimages/freshBitesResources/chickenSaladSub.jpeg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Chicken Sub</h5>
+            <p class="card-text">
+              R60
+            </p>
+            <a href="#" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+        <div class="card " style="width: 18rem">
+          <img src="https://achar1f.github.io/projectimages/freshBitesResources/Gourmet-Veggie-Sandwich-5 (1).jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Cheese Sando Deluxe</h5>
+            <p class="card-text">
+              R70
+            </p>
+            <a href="#" class="btn btn-dark">Add to cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-      <script src="./script/code.js"></script>
+    <script src="./script/code.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
     <h2 id="contact">Contact</h2>
-</body>
+  </body>
 </html>

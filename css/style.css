@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    background-color: slategray;
+    height: 80vh;
+}
+
+.card {
+    margin: auto;
+    padding-top: 15px;
+    background-color: #B1A189;
+}
